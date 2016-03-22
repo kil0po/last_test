@@ -10,7 +10,7 @@ public static int[] array = {9,8,7,6,5,4,3,2,1};;
                 i++;
             }
             while (array[j] > x) {
-                j--;
+                j--;--
             }
             if (i <= j) {
                 int temp = array[i];
