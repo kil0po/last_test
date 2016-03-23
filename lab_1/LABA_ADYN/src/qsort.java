@@ -16,7 +16,7 @@ public static int[] array = {9,8,7,6,5,4,3,2,1};;
                 int temp = array[i];
                 array[i] = array[j];
                 array[j] = temp;
-                i++;
+                i++;1
                 j--;
             }
         }
